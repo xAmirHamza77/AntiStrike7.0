@@ -1,12 +1,23 @@
+<p align="center">
+  <img src="assets/banner.png" alt="Antistrike 7.0 Banner" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/logo.png" alt="Antistrike Logo" width="120">
+  <br>
+  <strong>Antistrike 7.0 — Obsidian Edition</strong><br>
+  Advanced AI-powered penetration testing platform
+</p>
+
 # Antistrike 7.0 — Obsidian Edition
 
 Advanced AI-powered penetration testing platform with multi-interface control, expanded attack coverage, and intelligent orchestration.
 
 ## Features
 
-- **80+ attack modules** — Web, API, network, cloud, mobile, binary, wireless, and more
-- **35+ vulnerability classes** — SQLi, XSS, SSRF, XXE, SSTI, IDOR, GraphQL, LLM injection, and beyond
-- **150+ curated payloads** — Organized by attack type with metadata
+- **99 attack modules** — Web, API, network, cloud, mobile, binary, wireless, and more
+- **73 vulnerability classes** — SQLi, XSS, SSRF, XXE, SSTI, IDOR, GraphQL, LLM injection, and beyond
+- **88 curated payloads** — Organized by attack type with metadata
 - **Built-in HTTP scanner** — No external tools required for core testing
 - **Multi-agent coordination** — Parallel specialist agents for complex assessments
 - **Attack chaining** — Automatic vulnerability chain discovery
@@ -98,6 +109,23 @@ Or copy `config/antistrike-mcp.json` into your client configuration.
 | `mobile` | APK analysis, mobile API testing |
 | `binary` | Reverse engineering, ROP, firmware |
 | `full_spectrum` | All profiles combined |
+
+## Visual Assets
+
+| Asset | Preview |
+|-------|---------|
+| Logo | ![Logo](assets/logo.png) |
+| Dashboard | ![Dashboard](assets/dashboard-preview.png) |
+| Platform Stats | ![Platform Overview](assets/charts/platform-overview.svg) |
+| Module Categories | ![Modules](assets/charts/modules-by-category.svg) |
+| Architecture | ![Architecture](assets/diagrams/architecture.svg) |
+
+Full gallery: open `assets/gallery.html` in a browser.
+
+Regenerate charts from live data:
+```bash
+python scripts/generate_charts.py
+```
 
 ## Architecture
 

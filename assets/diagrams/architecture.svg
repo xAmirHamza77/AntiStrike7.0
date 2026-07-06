@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Inter, system-ui, sans-serif"><rect width="1000" height="620" fill="#0A0E17"/>
+<text x="40" y="35" fill="#00D4FF" font-size="22" font-weight="700">System Architecture</text>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#6B7280"/></marker></defs>
+<rect x="60" y="70" width="180" height="60" rx="8" fill="#111827" stroke="#00D4FF" stroke-width="1.5"/>
+<text x="150.0" y="98" fill="#00D4FF" font-size="13" font-weight="600" text-anchor="middle">Web Dashboard</text>
+<text x="150.0" y="116" fill="#6B7280" font-size="10" text-anchor="middle">:7700/dashboard</text>
+<rect x="280" y="70" width="180" height="60" rx="8" fill="#111827" stroke="#00D4FF" stroke-width="1.5"/>
+<text x="370.0" y="98" fill="#00D4FF" font-size="13" font-weight="600" text-anchor="middle">CLI / TUI</text>
+<text x="370.0" y="116" fill="#6B7280" font-size="10" text-anchor="middle">Terminal control</text>
+<rect x="500" y="70" width="180" height="60" rx="8" fill="#111827" stroke="#FFB020" stroke-width="1.5"/>
+<text x="590.0" y="98" fill="#FFB020" font-size="13" font-weight="600" text-anchor="middle">MCP Bridge</text>
+<text x="590.0" y="116" fill="#6B7280" font-size="10" text-anchor="middle">16 AI tools</text>
+<rect x="720" y="70" width="180" height="60" rx="8" fill="#111827" stroke="#7B61FF" stroke-width="1.5"/>
+<text x="810.0" y="98" fill="#7B61FF" font-size="13" font-weight="600" text-anchor="middle">REST API</text>
+<text x="810.0" y="116" fill="#6B7280" font-size="10" text-anchor="middle">FastAPI :7700</text>
+<line x1="150" y1="130" x2="150" y2="175" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="370" y1="130" x2="370" y2="175" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="590" y1="130" x2="590" y2="175" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="810" y1="130" x2="590" y2="175" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="200" y="180" width="600" height="120" rx="8" fill="#111827" stroke="#00D4FF" stroke-width="1.5"/>
+<text x="500.0" y="208" fill="#00D4FF" font-size="13" font-weight="600" text-anchor="middle">Antistrike Engine</text>
+<text x="500.0" y="226" fill="#6B7280" font-size="10" text-anchor="middle"></text>
+<text x="220" y="215" fill="#E5E7EB" font-size="10">• Authorization Gate</text>
+<text x="365" y="215" fill="#E5E7EB" font-size="10">• Attack Orchestrator</text>
+<text x="510" y="215" fill="#E5E7EB" font-size="10">• Built-in Scanner</text>
+<text x="655" y="215" fill="#E5E7EB" font-size="10">• Agent Coordinator</text>
+<text x="220" y="245" fill="#E5E7EB" font-size="10">• Tool Registry</text>
+<text x="365" y="245" fill="#E5E7EB" font-size="10">• Payload Library</text>
+<text x="510" y="245" fill="#E5E7EB" font-size="10">• Report Generator</text>
+<line x1="500" y1="300" x2="500" y2="350" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="120" y="360" width="200" height="60" rx="8" fill="#111827" stroke="#FFB020" stroke-width="1.5"/>
+<text x="220.0" y="388" fill="#FFB020" font-size="13" font-weight="600" text-anchor="middle">External CLI Tools</text>
+<text x="220.0" y="406" fill="#6B7280" font-size="10" text-anchor="middle">nmap, nuclei, sqlmap...</text>
+<rect x="400" y="360" width="200" height="60" rx="8" fill="#111827" stroke="#00E676" stroke-width="1.5"/>
+<text x="500.0" y="388" fill="#00E676" font-size="13" font-weight="600" text-anchor="middle">Payload Engine</text>
+<text x="500.0" y="406" fill="#6B7280" font-size="10" text-anchor="middle">88 curated payloads</text>
+<rect x="680" y="360" width="200" height="60" rx="8" fill="#111827" stroke="#7B61FF" stroke-width="1.5"/>
+<text x="780.0" y="388" fill="#7B61FF" font-size="13" font-weight="600" text-anchor="middle">Report Output</text>
+<text x="780.0" y="406" fill="#6B7280" font-size="10" text-anchor="middle">SARIF, JSON, Executive</text>
+<line x1="320" y1="390" x2="400" y2="390" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<line x1="600" y1="390" x2="680" y2="390" stroke="#6B7280" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="60" y="470" width="200" height="55" rx="8" fill="#111827" stroke="#00E676" stroke-width="1.5"/>
+<text x="160.0" y="498" fill="#00E676" font-size="13" font-weight="600" text-anchor="middle">Findings Store</text>
+<text x="160.0" y="516" fill="#6B7280" font-size="10" text-anchor="middle">./runs/</text>
+<rect x="300" y="470" width="200" height="55" rx="8" fill="#111827" stroke="#7B61FF" stroke-width="1.5"/>
+<text x="400.0" y="498" fill="#7B61FF" font-size="13" font-weight="600" text-anchor="middle">Agent Graph</text>
+<text x="400.0" y="516" fill="#6B7280" font-size="10" text-anchor="middle">Multi-agent teams</text>
+<rect x="540" y="470" width="200" height="55" rx="8" fill="#111827" stroke="#FFB020" stroke-width="1.5"/>
+<text x="640.0" y="498" fill="#FFB020" font-size="13" font-weight="600" text-anchor="middle">Audit Log</text>
+<text x="640.0" y="516" fill="#6B7280" font-size="10" text-anchor="middle">Scope tracking</text>
+<rect x="780" y="470" width="180" height="55" rx="8" fill="#111827" stroke="#00D4FF" stroke-width="1.5"/>
+<text x="870.0" y="498" fill="#00D4FF" font-size="13" font-weight="600" text-anchor="middle">Skills Library</text>
+<text x="870.0" y="516" fill="#6B7280" font-size="10" text-anchor="middle">Attack playbooks</text>
+</svg>

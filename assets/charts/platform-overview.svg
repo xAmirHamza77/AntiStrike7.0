@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="Inter, system-ui, sans-serif"><rect width="900" height="500" fill="#0A0E17"/>
+<text x="40" y="40" fill="#00D4FF" font-size="22" font-weight="700">Platform Overview</text>
+<text x="40" y="65" fill="#6B7280" font-size="13">Antistrike 7.0 Obsidian Edition — key metrics</text>
+<rect x="40" y="90" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="40" y="90" width="260" height="3" rx="1" fill="#00D4FF"/>
+<text x="56" y="125" fill="#6B7280" font-size="12">Attack Modules</text>
+<text x="56" y="162" fill="#00D4FF" font-size="36" font-weight="700">99</text>
+<rect x="320" y="90" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="320" y="90" width="260" height="3" rx="1" fill="#7B61FF"/>
+<text x="336" y="125" fill="#6B7280" font-size="12">Vulnerability Classes</text>
+<text x="336" y="162" fill="#7B61FF" font-size="36" font-weight="700">73</text>
+<rect x="600" y="90" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="600" y="90" width="260" height="3" rx="1" fill="#00E676"/>
+<text x="616" y="125" fill="#6B7280" font-size="12">Built-in Scanners</text>
+<text x="616" y="162" fill="#00E676" font-size="36" font-weight="700">46</text>
+<rect x="40" y="216" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="40" y="216" width="260" height="3" rx="1" fill="#FFB020"/>
+<text x="56" y="251" fill="#6B7280" font-size="12">External Tool Wrappers</text>
+<text x="56" y="288" fill="#FFB020" font-size="36" font-weight="700">53</text>
+<rect x="320" y="216" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="320" y="216" width="260" height="3" rx="1" fill="#00E676"/>
+<text x="336" y="251" fill="#6B7280" font-size="12">Available Now</text>
+<text x="336" y="288" fill="#00E676" font-size="36" font-weight="700">48</text>
+<rect x="600" y="216" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="600" y="216" width="260" height="3" rx="1" fill="#FFAB40"/>
+<text x="616" y="251" fill="#6B7280" font-size="12">Curated Payloads</text>
+<text x="616" y="288" fill="#FFAB40" font-size="36" font-weight="700">88</text>
+<rect x="40" y="342" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="40" y="342" width="260" height="3" rx="1" fill="#00D4FF"/>
+<text x="56" y="377" fill="#6B7280" font-size="12">Scan Depths</text>
+<text x="56" y="414" fill="#00D4FF" font-size="36" font-weight="700">4</text>
+<rect x="320" y="342" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="320" y="342" width="260" height="3" rx="1" fill="#7B61FF"/>
+<text x="336" y="377" fill="#6B7280" font-size="12">Attack Profiles</text>
+<text x="336" y="414" fill="#7B61FF" font-size="36" font-weight="700">7</text>
+<rect x="600" y="342" width="260" height="110" rx="8" fill="#111827" stroke="#1F2937"/>
+<rect x="600" y="342" width="260" height="3" rx="1" fill="#FFB020"/>
+<text x="616" y="377" fill="#6B7280" font-size="12">MCP Tools</text>
+<text x="616" y="414" fill="#FFB020" font-size="36" font-weight="700">16</text>
+</svg>

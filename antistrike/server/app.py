@@ -37,8 +37,11 @@ app.include_router(attacks.router, prefix="/api/attacks", tags=["Attacks"])
 app.include_router(agents.router, prefix="/api/agents", tags=["Agents"])
 
 dashboard_path = PROJECT_ROOT / "antistrike" / "web" / "dashboard"
+assets_path = PROJECT_ROOT / "assets"
 if dashboard_path.exists():
     app.mount("/dashboard", StaticFiles(directory=str(dashboard_path), html=True), name="dashboard")
+if assets_path.exists():
+    app.mount("/assets", StaticFiles(directory=str(assets_path)), name="assets")
 
 
 @app.get("/")

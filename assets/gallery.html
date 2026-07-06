@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antistrike 7.0 — Visual Assets</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Inter, sans-serif; background: #0A0E17; color: #E5E7EB; padding: 40px; }
+    h1 { color: #00D4FF; font-size: 28px; margin-bottom: 8px; }
+    .subtitle { color: #6B7280; margin-bottom: 40px; }
+    h2 { color: #FFB020; font-size: 18px; margin: 32px 0 16px; border-bottom: 1px solid #1F2937; padding-bottom: 8px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 20px; }
+    .card { background: #111827; border: 1px solid #1F2937; border-radius: 12px; overflow: hidden; }
+    .card img, .card object { width: 100%; display: block; }
+    .card .label { padding: 12px 16px; font-size: 13px; color: #9CA3AF; }
+    .hero { margin-bottom: 40px; border-radius: 12px; overflow: hidden; border: 1px solid #1F2937; }
+    .hero img { width: 100%; display: block; }
+    .logo-row { display: flex; gap: 24px; align-items: center; margin-bottom: 40px; }
+    .logo-row img { border-radius: 16px; border: 1px solid #1F2937; }
+  </style>
+</head>
+<body>
+  <h1>Antistrike 7.0 — Visual Assets</h1>
+  <p class="subtitle">Obsidian Edition · Branding, charts, and architecture diagrams</p>
+
+  <div class="logo-row">
+    <img src="logo.png" alt="Logo" width="128" height="128">
+    <img src="icon.png" alt="Icon" width="128" height="128">
+    <object data="logo.svg" type="image/svg+xml" width="128" height="128"></object>
+    <object data="favicon.svg" type="image/svg+xml" width="64" height="64"></object>
+  </div>
+
+  <div class="hero">
+    <img src="banner.png" alt="Antistrike 7.0 Banner">
+  </div>
+
+  <h2>Product Preview</h2>
+  <div class="card" style="max-width:900px">
+    <img src="dashboard-preview.png" alt="Dashboard Preview">
+    <div class="label">Command Center Dashboard Mockup</div>
+  </div>
+
+  <h2>Charts & Analytics</h2>
+  <div class="grid">
+    <div class="card"><object data="charts/platform-overview.svg" type="image/svg+xml"></object><div class="label">Platform Overview</div></div>
+    <div class="card"><object data="charts/modules-by-category.svg" type="image/svg+xml"></object><div class="label">Modules by Category</div></div>
+    <div class="card"><object data="charts/payload-breakdown.svg" type="image/svg+xml"></object><div class="label">Payload Library</div></div>
+    <div class="card"><object data="charts/scan-depth-coverage.svg" type="image/svg+xml"></object><div class="label">Scan Depth Coverage</div></div>
+    <div class="card"><object data="charts/module-types.svg" type="image/svg+xml"></object><div class="label">Built-in vs External</div></div>
+    <div class="card"><object data="charts/attack-profiles.svg" type="image/svg+xml"></object><div class="label">Attack Profiles</div></div>
+  </div>
+
+  <h2>Architecture</h2>
+  <div class="card" style="max-width:1000px">
+    <object data="diagrams/architecture.svg" type="image/svg+xml"></object>
+    <div class="label">System Architecture Diagram</div>
+  </div>
+</body>
+</html>

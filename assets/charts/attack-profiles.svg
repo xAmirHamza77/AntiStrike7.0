@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" font-family="Inter, system-ui, sans-serif"><rect width="700" height="400" fill="#0A0E17"/>
+<text x="30" y="35" fill="#FFB020" font-size="20" font-weight="700">Attack Profiles</text>
+<text x="30" y="58" fill="#6B7280" font-size="12">Modules activated per assessment profile</text>
+<line x1="350" y1="220" x2="350.0" y2="148.6" stroke="#00D4FF" stroke-width="2" opacity="0.6"/>
+<circle cx="350.0" cy="148.6" r="6" fill="#00D4FF"/>
+<text x="350.0" y="40.0" fill="#E5E7EB" font-size="11" text-anchor="middle">Web (6)</text>
+<line x1="350" y1="220" x2="396.5" y2="182.9" stroke="#7B61FF" stroke-width="2" opacity="0.6"/>
+<circle cx="396.5" cy="182.9" r="6" fill="#7B61FF"/>
+<text x="490.7" y="107.8" fill="#E5E7EB" font-size="11" text-anchor="middle">API (5)</text>
+<line x1="350" y1="220" x2="396.4" y2="230.6" stroke="#FFB020" stroke-width="2" opacity="0.6"/>
+<circle cx="396.4" cy="230.6" r="6" fill="#FFB020"/>
+<text x="525.5" y="260.1" fill="#E5E7EB" font-size="11" text-anchor="middle">Network (4)</text>
+<line x1="350" y1="220" x2="375.8" y2="273.6" stroke="#00E676" stroke-width="2" opacity="0.6"/>
+<circle cx="375.8" cy="273.6" r="6" fill="#00E676"/>
+<text x="428.1" y="382.2" fill="#E5E7EB" font-size="11" text-anchor="middle">Cloud (5)</text>
+<line x1="350" y1="220" x2="339.7" y2="241.4" stroke="#FFAB40" stroke-width="2" opacity="0.6"/>
+<circle cx="339.7" cy="241.4" r="6" fill="#FFAB40"/>
+<text x="271.9" y="382.2" fill="#E5E7EB" font-size="11" text-anchor="middle">Mobile (2)</text>
+<line x1="350" y1="220" x2="315.2" y2="227.9" stroke="#FF5252" stroke-width="2" opacity="0.6"/>
+<circle cx="315.2" cy="227.9" r="6" fill="#FF5252"/>
+<text x="174.5" y="260.1" fill="#E5E7EB" font-size="11" text-anchor="middle">Binary (3)</text>
+<line x1="350" y1="220" x2="257.0" y2="145.8" stroke="#00D4FF" stroke-width="2" opacity="0.6"/>
+<circle cx="257.0" cy="145.8" r="6" fill="#00D4FF"/>
+<text x="209.3" y="107.8" fill="#E5E7EB" font-size="11" text-anchor="middle">Full Spectrum (10)</text>
+<circle cx="350" cy="220" r="4" fill="#E5E7EB"/>
+</svg>

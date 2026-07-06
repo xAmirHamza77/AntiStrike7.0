@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" font-family="Inter, system-ui, sans-serif"><rect width="900" height="340" fill="#0A0E17"/>
+<text x="40" y="40" fill="#00E676" font-size="22" font-weight="700">Scan Depth Coverage</text>
+<text x="40" y="65" fill="#6B7280" font-size="13">Attack types tested at each depth level</text>
+<text x="40" y="118" fill="#E5E7EB" font-size="14" font-weight="600">Quick</text>
+<rect x="140" y="100" width="27.397260273972602" height="28" rx="4" fill="#6B7280" opacity="0.85"/>
+<text x="177.3972602739726" y="120" fill="#6B7280" font-size="14" font-weight="700">4</text>
+<text x="140" y="142" fill="#6B7280" font-size="11">Surface scan — SQLi, XSS, CORS, redirects</text>
+<text x="40" y="173" fill="#E5E7EB" font-size="14" font-weight="600">Standard</text>
+<rect x="140" y="155" width="54.794520547945204" height="28" rx="4" fill="#00D4FF" opacity="0.85"/>
+<text x="204.7945205479452" y="175" fill="#00D4FF" font-size="14" font-weight="700">8</text>
+<text x="140" y="197" fill="#6B7280" font-size="11">Balanced — adds SSRF, LFI, SSTI, CMDi</text>
+<text x="40" y="228" fill="#E5E7EB" font-size="14" font-weight="600">Deep</text>
+<rect x="140" y="210" width="82.1917808219178" height="28" rx="4" fill="#FFB020" opacity="0.85"/>
+<text x="232.1917808219178" y="230" fill="#FFB020" font-size="14" font-weight="700">12</text>
+<text x="140" y="252" fill="#6B7280" font-size="11">Thorough — NoSQL, XXE, prototype pollution</text>
+<text x="40" y="283" fill="#E5E7EB" font-size="14" font-weight="600">Exhaustive</text>
+<rect x="140" y="265" width="500.0" height="28" rx="4" fill="#7B61FF" opacity="0.85"/>
+<text x="650.0" y="285" fill="#7B61FF" font-size="14" font-weight="700">73</text>
+<text x="140" y="307" fill="#6B7280" font-size="11">Full spectrum — all attack classes</text>
+</svg>

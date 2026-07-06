@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Inter, system-ui, sans-serif"><rect width="900" height="520" fill="#0A0E17"/>
+<text x="40" y="40" fill="#00D4FF" font-size="22" font-weight="700">Attack Modules by Category</text>
+<text x="40" y="65" fill="#6B7280" font-size="13">99 total modules across 16 categories</text>
+<text x="40" y="120" fill="#E5E7EB" font-size="13" text-anchor="start">injection</text>
+<rect x="180" y="100" width="580.0" height="28" rx="4" fill="#00D4FF" opacity="0.85"/>
+<text x="772.0" y="120" fill="#E5E7EB" font-size="14" font-weight="600">12</text>
+<text x="40" y="156" fill="#E5E7EB" font-size="13" text-anchor="start">web</text>
+<rect x="180" y="136" width="483.33333333333337" height="28" rx="4" fill="#FFB020" opacity="0.85"/>
+<text x="675.3333333333334" y="156" fill="#E5E7EB" font-size="14" font-weight="600">10</text>
+<text x="40" y="192" fill="#E5E7EB" font-size="13" text-anchor="start">cloud</text>
+<rect x="180" y="172" width="483.33333333333337" height="28" rx="4" fill="#7B61FF" opacity="0.85"/>
+<text x="675.3333333333334" y="192" fill="#E5E7EB" font-size="14" font-weight="600">10</text>
+<text x="40" y="228" fill="#E5E7EB" font-size="13" text-anchor="start">server</text>
+<rect x="180" y="208" width="435.0" height="28" rx="4" fill="#00E676" opacity="0.85"/>
+<text x="627.0" y="228" fill="#E5E7EB" font-size="14" font-weight="600">9</text>
+<text x="40" y="264" fill="#E5E7EB" font-size="13" text-anchor="start">network</text>
+<rect x="180" y="244" width="386.66666666666663" height="28" rx="4" fill="#FFAB40" opacity="0.85"/>
+<text x="578.6666666666666" y="264" fill="#E5E7EB" font-size="14" font-weight="600">8</text>
+<text x="40" y="300" fill="#E5E7EB" font-size="13" text-anchor="start">recon</text>
+<rect x="180" y="280" width="338.33333333333337" height="28" rx="4" fill="#FF5252" opacity="0.85"/>
+<text x="530.3333333333334" y="300" fill="#E5E7EB" font-size="14" font-weight="600">7</text>
+<text x="40" y="336" fill="#E5E7EB" font-size="13" text-anchor="start">access</text>
+<rect x="180" y="316" width="338.33333333333337" height="28" rx="4" fill="#40C4FF" opacity="0.85"/>
+<text x="530.3333333333334" y="336" fill="#E5E7EB" font-size="14" font-weight="600">7</text>
+<text x="40" y="372" fill="#E5E7EB" font-size="13" text-anchor="start">api</text>
+<rect x="180" y="352" width="338.33333333333337" height="28" rx="4" fill="#FF6B9D" opacity="0.85"/>
+<text x="530.3333333333334" y="372" fill="#E5E7EB" font-size="14" font-weight="600">7</text>
+<text x="40" y="408" fill="#E5E7EB" font-size="13" text-anchor="start">auth</text>
+<rect x="180" y="388" width="338.33333333333337" height="28" rx="4" fill="#A78BFA" opacity="0.85"/>
+<text x="530.3333333333334" y="408" fill="#E5E7EB" font-size="14" font-weight="600">7</text>
+<text x="40" y="444" fill="#E5E7EB" font-size="13" text-anchor="start">client</text>
+<rect x="180" y="424" width="241.66666666666669" height="28" rx="4" fill="#34D399" opacity="0.85"/>
+<text x="433.6666666666667" y="444" fill="#E5E7EB" font-size="14" font-weight="600">5</text>
+<text x="40" y="480" fill="#E5E7EB" font-size="13" text-anchor="start">binary</text>
+<rect x="180" y="460" width="241.66666666666669" height="28" rx="4" fill="#FBBF24" opacity="0.85"/>
+<text x="433.6666666666667" y="480" fill="#E5E7EB" font-size="14" font-weight="600">5</text>
+<text x="40" y="516" fill="#E5E7EB" font-size="13" text-anchor="start">mobile</text>
+<rect x="180" y="496" width="145.0" height="28" rx="4" fill="#F87171" opacity="0.85"/>
+<text x="337.0" y="516" fill="#E5E7EB" font-size="14" font-weight="600">3</text>
+<text x="40" y="552" fill="#E5E7EB" font-size="13" text-anchor="start">secrets</text>
+<rect x="180" y="532" width="145.0" height="28" rx="4" fill="#60A5FA" opacity="0.85"/>
+<text x="337.0" y="552" fill="#E5E7EB" font-size="14" font-weight="600">3</text>
+<text x="40" y="588" fill="#E5E7EB" font-size="13" text-anchor="start">wireless</text>
+<rect x="180" y="568" width="96.66666666666666" height="28" rx="4" fill="#C084FC" opacity="0.85"/>
+<text x="288.66666666666663" y="588" fill="#E5E7EB" font-size="14" font-weight="600">2</text>
+<text x="40" y="624" fill="#E5E7EB" font-size="13" text-anchor="start">code</text>
+<rect x="180" y="604" width="96.66666666666666" height="28" rx="4" fill="#4ADE80" opacity="0.85"/>
+<text x="288.66666666666663" y="624" fill="#E5E7EB" font-size="14" font-weight="600">2</text>
+<text x="40" y="660" fill="#E5E7EB" font-size="13" text-anchor="start">report</text>
+<rect x="180" y="640" width="96.66666666666666" height="28" rx="4" fill="#FB923C" opacity="0.85"/>
+<text x="288.66666666666663" y="660" fill="#E5E7EB" font-size="14" font-weight="600">2</text>
+</svg>

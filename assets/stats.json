@@ -1,0 +1,43 @@
+{
+  "version": "7.0.0",
+  "modules_total": 99,
+  "modules_builtin": 46,
+  "modules_available": 48,
+  "attack_types": 73,
+  "payloads_total": 88,
+  "categories": {
+    "recon": 7,
+    "network": 8,
+    "web": 10,
+    "injection": 12,
+    "server": 9,
+    "access": 7,
+    "client": 5,
+    "api": 7,
+    "auth": 7,
+    "cloud": 10,
+    "mobile": 3,
+    "binary": 5,
+    "wireless": 2,
+    "secrets": 3,
+    "code": 2,
+    "report": 2
+  },
+  "payloads": {
+    "sqli": 10,
+    "xss": 10,
+    "ssrf": 10,
+    "lfi": 9,
+    "ssti": 8,
+    "xxe": 3,
+    "cmdi": 7,
+    "nosql": 4,
+    "open_redirect": 6,
+    "jwt": 4,
+    "graphql": 4,
+    "llm_injection": 4,
+    "prototype_pollution": 3,
+    "host_header": 3,
+    "crlf": 3
+  }
+}
