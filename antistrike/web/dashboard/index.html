@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Antistrike 7.0 — Control Center</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M16 2L4 8v8c0 7.73 5.12 14.96 12 16 6.88-1.04 12-8.27 12-16V8L16 2z" stroke="currentColor" stroke-width="1.5"/><path d="M12 16l3 3 5-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <div>
+          <h1>Antistrike</h1>
+          <span class="version">v7.0 Obsidian</span>
+        </div>
+      </div>
+      <nav class="nav">
+        <button class="nav-item active" data-panel="dashboard">
+          <span class="nav-icon">◈</span> Dashboard
+        </button>
+        <button class="nav-item" data-panel="scanner">
+          <span class="nav-icon">◎</span> Scanner
+        </button>
+        <button class="nav-item" data-panel="modules">
+          <span class="nav-icon">⬡</span> Modules
+        </button>
+        <button class="nav-item" data-panel="agents">
+          <span class="nav-icon">◇</span> Agents
+        </button>
+        <button class="nav-item" data-panel="payloads">
+          <span class="nav-icon">▣</span> Payloads
+        </button>
+        <button class="nav-item" data-panel="findings">
+          <span class="nav-icon">△</span> Findings
+        </button>
+        <button class="nav-item" data-panel="reports">
+          <span class="nav-icon">▤</span> Reports
+        </button>
+        <button class="nav-item" data-panel="settings">
+          <span class="nav-icon">⚙</span> Settings
+        </button>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="status-indicator" id="server-status">
+          <span class="status-dot"></span>
+          <span>Connecting...</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <!-- Dashboard Panel -->
+      <section class="panel active" id="panel-dashboard">
+        <header class="panel-header">
+          <h2>Command Center</h2>
+          <p>Real-time offensive security operations</p>
+        </header>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-label">Modules</div>
+            <div class="stat-value" id="stat-modules">—</div>
+            <div class="stat-sub" id="stat-modules-sub">loading</div>
+          </div>
+          <div class="stat-card accent">
+            <div class="stat-label">Attack Types</div>
+            <div class="stat-value" id="stat-attacks">—</div>
+            <div class="stat-sub">vulnerability classes</div>
+          </div>
+          <div class="stat-card warning">
+            <div class="stat-label">Payloads</div>
+            <div class="stat-value" id="stat-payloads">—</div>
+            <div class="stat-sub">in library</div>
+          </div>
+          <div class="stat-card success">
+            <div class="stat-label">Active Jobs</div>
+            <div class="stat-value" id="stat-jobs">0</div>
+            <div class="stat-sub">running scans</div>
+          </div>
+        </div>
+        <div class="grid-2">
+          <div class="card">
+            <h3>System Health</h3>
+            <div class="health-bars">
+              <div class="health-item">
+                <span>CPU</span>
+                <div class="bar-track"><div class="bar-fill" id="cpu-bar" style="width:0%"></div></div>
+                <span id="cpu-val">0%</span>
+              </div>
+              <div class="health-item">
+                <span>Memory</span>
+                <div class="bar-track"><div class="bar-fill memory" id="mem-bar" style="width:0%"></div></div>
+                <span id="mem-val">0%</span>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Quick Actions</h3>
+            <div class="quick-actions">
+              <button class="action-btn primary" onclick="switchPanel('scanner')">New Scan</button>
+              <button class="action-btn" onclick="switchPanel('modules')">View Modules</button>
+              <button class="action-btn" onclick="switchPanel('agents')">Deploy Agents</button>
+              <button class="action-btn" onclick="switchPanel('reports')">Generate Report</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scanner Panel -->
+      <section class="panel" id="panel-scanner">
+        <header class="panel-header">
+          <h2>Vulnerability Scanner</h2>
+          <p>Configure and launch security assessments</p>
+        </header>
+        <div class="card scanner-config">
+          <div class="form-group">
+            <label>Target URL</label>
+            <input type="url" id="scan-target" placeholder="https://target.example.com" class="input">
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Authorized By</label>
+              <input type="text" id="scan-authorizer" placeholder="Security Team Lead" class="input">
+            </div>
+            <div class="form-group">
+              <label>Scan Depth</label>
+              <select id="scan-depth" class="input">
+                <option value="quick">Quick — Surface scan</option>
+                <option value="standard" selected>Standard — Balanced</option>
+                <option value="deep">Deep — Thorough</option>
+                <option value="exhaustive">Exhaustive — Full spectrum</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Profile</label>
+              <select id="scan-profile" class="input">
+                <option value="web">Web Application</option>
+                <option value="api">API Security</option>
+                <option value="network">Network</option>
+                <option value="cloud">Cloud Infrastructure</option>
+                <option value="mobile">Mobile</option>
+                <option value="binary">Binary Analysis</option>
+                <option value="full_spectrum">Full Spectrum</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Attack Types (optional — leave empty for depth defaults)</label>
+            <div class="chip-grid" id="attack-chips"></div>
+          </div>
+          <div class="btn-row">
+            <button class="action-btn primary" id="btn-authorize">Register Authorization</button>
+            <button class="action-btn success" id="btn-scan">Run Built-in Scan</button>
+            <button class="action-btn warning" id="btn-assess">Full Profile Assessment</button>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Scan Output</h3>
+          <pre class="output-log" id="scan-output">Ready. Register authorization, then launch a scan.</pre>
+        </div>
+      </section>
+
+      <!-- Modules Panel -->
+      <section class="panel" id="panel-modules">
+        <header class="panel-header">
+          <h2>Attack Modules</h2>
+          <p id="modules-count">Loading modules...</p>
+        </header>
+        <div class="filter-bar">
+          <select id="module-category" class="input compact">
+            <option value="">All Categories</option>
+          </select>
+          <input type="text" id="module-search" placeholder="Search modules..." class="input compact">
+        </div>
+        <div class="module-grid" id="module-grid"></div>
+      </section>
+
+      <!-- Agents Panel -->
+      <section class="panel" id="panel-agents">
+        <header class="panel-header">
+          <h2>Agent Coordination</h2>
+          <p>Multi-agent parallel testing teams</p>
+        </header>
+        <div class="card">
+          <div class="form-row">
+            <div class="form-group flex-1">
+              <label>Target</label>
+              <input type="url" id="agent-target" placeholder="https://target.example.com" class="input">
+            </div>
+            <button class="action-btn primary" id="btn-spawn-agents">Deploy Agent Team</button>
+          </div>
+          <div class="agent-roles">
+            <label class="chip active" data-role="recon"><input type="checkbox" checked hidden> Recon</label>
+            <label class="chip active" data-role="web_attacker"><input type="checkbox" checked hidden> Web Attacker</label>
+            <label class="chip active" data-role="api_specialist"><input type="checkbox" checked hidden> API Specialist</label>
+            <label class="chip active" data-role="network_scanner"><input type="checkbox" checked hidden> Network</label>
+            <label class="chip" data-role="cloud_auditor"><input type="checkbox" hidden> Cloud Auditor</label>
+            <label class="chip" data-role="exploit_developer"><input type="checkbox" hidden> Exploit Dev</label>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Agent Graph</h3>
+          <div id="agent-graph" class="agent-graph">No agents deployed</div>
+        </div>
+      </section>
+
+      <!-- Payloads Panel -->
+      <section class="panel" id="panel-payloads">
+        <header class="panel-header">
+          <h2>Payload Library</h2>
+          <p>Curated attack payloads by vulnerability class</p>
+        </header>
+        <div class="filter-bar">
+          <select id="payload-type" class="input compact"></select>
+        </div>
+        <div class="payload-list" id="payload-list"></div>
+      </section>
+
+      <!-- Findings Panel -->
+      <section class="panel" id="panel-findings">
+        <header class="panel-header">
+          <h2>Findings</h2>
+          <p id="findings-count">No findings yet</p>
+        </header>
+        <div id="findings-list" class="findings-list">
+          <div class="empty-state">Run a scan to discover vulnerabilities</div>
+        </div>
+      </section>
+
+      <!-- Reports Panel -->
+      <section class="panel" id="panel-reports">
+        <header class="panel-header">
+          <h2>Reports</h2>
+          <p>Generate assessment deliverables</p>
+        </header>
+        <div class="card">
+          <div class="form-group">
+            <label>Target</label>
+            <input type="text" id="report-target" placeholder="target.example.com" class="input">
+          </div>
+          <div class="form-group">
+            <label>Export Formats</label>
+            <div class="chip-grid">
+              <label class="chip active"><input type="checkbox" value="executive" checked hidden> Executive Summary</label>
+              <label class="chip active"><input type="checkbox" value="sarif" checked hidden> SARIF</label>
+              <label class="chip active"><input type="checkbox" value="json" checked hidden> JSON</label>
+            </div>
+          </div>
+          <button class="action-btn primary" id="btn-report">Generate Report</button>
+          <pre class="output-log" id="report-output"></pre>
+        </div>
+      </section>
+
+      <!-- Settings Panel -->
+      <section class="panel" id="panel-settings">
+        <header class="panel-header">
+          <h2>Settings</h2>
+          <p>Platform configuration</p>
+        </header>
+        <div class="card">
+          <div class="form-group">
+            <label>API Server URL</label>
+            <input type="url" id="api-url" value="http://127.0.0.1:7700" class="input">
+          </div>
+          <div class="form-group">
+            <label>Default Scan Depth</label>
+            <select id="default-depth" class="input">
+              <option value="quick">Quick</option>
+              <option value="standard" selected>Standard</option>
+              <option value="deep">Deep</option>
+              <option value="exhaustive">Exhaustive</option>
+            </select>
+          </div>
+          <button class="action-btn" id="btn-save-settings">Save Settings</button>
+        </div>
+        <div class="card">
+          <h3>MCP Integration</h3>
+          <p class="dim">Connect AI assistants via MCP. Add to your client config:</p>
+          <pre class="code-block" id="mcp-config">Loading...</pre>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

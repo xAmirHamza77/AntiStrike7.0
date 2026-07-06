@@ -1,0 +1,29 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 7700,
+    "api_key": null,
+    "cors_origins": ["http://localhost:7701", "http://127.0.0.1:7701"]
+  },
+  "mcp": {
+    "server_url": "http://127.0.0.1:7700",
+    "timeout": 600
+  },
+  "scan": {
+    "default_depth": "standard",
+    "max_concurrent_jobs": 8,
+    "command_timeout": 300,
+    "cache_ttl": 3600
+  },
+  "dashboard": {
+    "port": 7701,
+    "theme": "obsidian"
+  },
+  "authorization": {
+    "require_scope_confirmation": true,
+    "log_all_actions": true
+  },
+  "telemetry": {
+    "enabled": false
+  }
+}

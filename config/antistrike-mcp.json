@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "antistrike": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "antistrike.mcp.bridge",
+        "--server",
+        "http://127.0.0.1:7700"
+      ],
+      "timeout": 600,
+      "description": "Antistrike 7.0 — Advanced penetration testing platform"
+    }
+  }
+}
