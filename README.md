@@ -120,7 +120,9 @@ Or copy `config/antistrike-mcp.json` into your client configuration.
 | Module Categories | ![Modules](assets/charts/modules-by-category.svg) |
 | Architecture | ![Architecture](assets/diagrams/architecture.svg) |
 
-Full gallery: open `assets/gallery.html` in a browser.
+**Live gallery:** https://xamirhamza77.github.io/AntiStrike7.0/
+
+Or open `assets/gallery.html` locally.
 
 Regenerate charts from live data:
 ```bash
